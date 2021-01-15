@@ -80,23 +80,27 @@ label, select, option {
 
 #start-page {
     display: block;
-    padding-top: 5%;
+    padding-top: 10vh;
 }
 
 #easy-mode-page {
     display: none;
+    padding-top: 10vh;
 }
 
 #medium-mode-page {
     display: none;
+    padding-top: 8vh;
 }
 
 #hard-mode-page {
     display: none;
+    padding-top: 7vh;
 }
 
 #game-over-page {
     display: none;
+    padding-top: 10vh;
 }
 
 /* ///////////////////////GAME BOXES//////////////////////////// */
