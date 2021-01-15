@@ -1,0 +1,240 @@
+label, select, option {
+    font-size: 30px;
+}
+
+.heading {
+    text-align: center;
+    margin: 2%;
+}
+
+.button {
+    display: block;
+    margin: 2% auto;
+    border: none;
+    border-radius: 15px;
+    padding: 1% 10%;
+    background-color: #ffc764;
+    max-width: 60vw;
+    font-size: min(10vw, 40px);
+    font-weight: 400;
+}
+
+/* /////////////////////// HOW TO PLAY MODAL //////////////////////////// */
+
+#how-to-play-button {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 3%;
+    border: 1px solid #888;
+    width: 60%;
+}
+  
+.close {
+    text-align: right;
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* /////////////////////// MAIN PAGES //////////////////////////// */
+
+#start-page {
+    display: block;
+    padding-top: 5%;
+}
+
+#easy-mode-page {
+    display: none;
+}
+
+#medium-mode-page {
+    display: none;
+}
+
+#hard-mode-page {
+    display: none;
+}
+
+#game-over-page {
+    display: none;
+}
+
+/* ///////////////////////GAME BOXES//////////////////////////// */
+
+#easy-mode-page .box {
+    max-width: 20vmin;
+    height: 20vmin;
+    margin: 2vmin;
+    border-radius: 10px;
+}
+
+#medium-mode-page .box {
+    max-width: 17vmin;
+    height: 17vmin;
+    margin: 2vmin;
+    border-radius: 10px;
+}
+
+#hard-mode-page .box {
+    max-width: 13vmin;
+    height: 13vmin;
+    margin: 1.5vmin;
+    border-radius: 10px;
+}
+
+/* ///////////////////////EASY BOXES//////////////////////////// */
+
+#box1-easy {
+    background-color: #111d5e;
+}
+
+#box2-easy {
+    background-color: #c70039;
+}
+
+#box3-easy {
+    background-color: #f37121;
+}
+
+#box4-easy {
+    background-color: #c0e218;
+}
+
+/* ///////////////////////MEDIUM BOXES//////////////////////////// */
+
+#box1-medium {
+    background-color: #3ec1d3;
+}
+
+#box2-medium {
+    background-color: #f9e0ae;
+}
+
+#box3-medium {
+    background-color: #ff9a00;
+}
+
+#box4-medium {
+    background-color: #ff165d;
+}
+
+#box5-medium {
+    background-color: #111d5e;
+}
+
+#box6-medium {
+    background-color: #c70039;
+}
+
+#box7-medium {
+    background-color: #f37121;
+}
+
+#box8-medium {
+    background-color: #c0e218;
+}
+
+#box9-medium {
+    background-color: #ef4f4f;
+}
+
+/* ///////////////////////HARD BOXES//////////////////////////// */
+
+#box1-hard {
+    background-color: #a20a0a;
+}
+
+#box2-hard {
+    background-color: #ffa36c;
+}
+
+#box3-hard {
+    background-color: #f1ae89;
+}
+
+#box4-hard {
+    background-color: #799351;
+}
+
+#box5-hard {
+    background-color: #3ec1d3;
+}
+
+#box6-hard {
+    background-color: #f9e0ae;
+}
+
+#box7-hard {
+    background-color: #5c6e91;
+}
+
+#box8-hard {
+    background-color: #ff165d;
+}
+
+#box9-hard {
+    background-color: #111d5e;
+}
+
+#box10-hard {
+    background-color: #c70039;
+}
+
+#box11-hard {
+    background-color: #f37121;
+}
+
+#box12-hard {
+    background-color: #c0e218;
+}
+
+#box13-hard {
+    background-color: #583d72;
+}
+
+#box14-hard {
+    background-color: #9f5f80;
+}
+
+#box15-hard {
+    background-color: #fd8c04;
+}
+
+#box16-hard {
+    background-color: #ff8e71;
+}
+
+#game-over-text {
+    margin-bottom: 10%;
+}
