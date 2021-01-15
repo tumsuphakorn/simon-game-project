@@ -1,26 +1,3 @@
-////////////////////////////////////////// GAME STATE //////////////////////////////////////////////////
-
-// class GameState {
-//     constructor() {
-//         this.state = "start";
-//         this.highScore = {
-//             easy: 0,
-//             medium: 0,
-//             hard: 0
-//         }
-//         this.difficulty = "easy";
-//     }
-//     setState(state) {
-//         this.state = state;
-//     }
-//     setDifficulty(difficulty) {
-//         this.difficulty = difficulty;
-//     }
-//     setHighscore(newHighScore) {
-//         this.highScore[this.difficulty] = newHighScore;
-//     }
-// }
-
 ////////////////////////////////////////// GAME PLAY //////////////////////////////////////////////////
 
 class GamePlay {
@@ -38,10 +15,6 @@ class GamePlay {
             hard: 0
         };
     }
-    // addNewSequence() {
-    //     let randomSequence = Math.floor(Math.random() * this.difficulty) + 1;
-    //     this.sequence.push(randomSequence);
-    // }
     nextPlay() {
 
         //Update Level
@@ -50,7 +23,7 @@ class GamePlay {
 
         //Update High Score
         if (this.currentLevel > this.highScore[this.difficulty] + 1) this.highScore[this.difficulty]++;
-        $(`#high-score-${this.difficulty}`).html(`Highscore (${this.difficulty} mode): ${this.highScore[this.difficulty]}`);
+        $(`#high-score-${this.difficulty}`).html(`High Score (${this.difficulty} mode): ${this.highScore[this.difficulty]}`);
 
         //Start Next Sequence
         this.playerPicks = [];
@@ -319,28 +292,22 @@ backButton.addEventListener("click", () => {
     startPage.style.display = "block";
 });
 
-//////////////// PAGES //////////////////////
+//////////////// MODAL //////////////////////
 
-// Get the modal
 const modal = document.getElementById("how-to-play-modal");
 
-// Get the button that opens the modal
 const btn = document.getElementById("how-to-play-button");
 
-// Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
 btn.onclick = function() {
   modal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";

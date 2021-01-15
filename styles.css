@@ -19,7 +19,7 @@ label, select, option {
     font-weight: 400;
 }
 
-/* /////////////////////// HOW TO PLAY MODAL //////////////////////////// */
+/* /////////////////////// HOW-TO-PLAY MODAL //////////////////////////// */
 
 #how-to-play-button {
     position: absolute;
@@ -50,6 +50,15 @@ label, select, option {
     padding: 3%;
     border: 1px solid #888;
     width: 60%;
+    font-size: max(1.2vw, 16px);
+}
+
+.modal-content h1 {
+    font-size: max(3vw, 30px);
+}
+
+.modal-content h3 {
+    font-size: max(1.5vw, 22px);
 }
   
 .close {
